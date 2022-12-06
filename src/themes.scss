@@ -1,0 +1,16 @@
+@forward '@nebular/theme/styles/theming';
+@use '@nebular/theme/styles/theming' as *;
+@use '@nebular/theme/styles/themes/corporate';
+
+$nb-themes: nb-register-theme((
+  color-primary-100: #6c67ab,
+  color-primary-200: #534e84,
+  color-primary-300: #4a4676,
+  color-primary-400: #413e68,
+  color-primary-500: #353254,
+  color-primary-600: #211f35,
+  color-primary-700: #141321,
+  color-primary-800: #141321,
+  color-primary-900: #141321,
+
+), corporate, corporate);
