@@ -1,0 +1,17 @@
+.header-container {
+  width: 95vw;
+  img {
+    margin-right: 10px;
+  }
+  .logo {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #383838;
+    top: 30px;
+    position: absolute;
+  }
+  nb-user {
+    float: right;
+  }
+}
